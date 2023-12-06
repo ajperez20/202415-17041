@@ -14,7 +14,7 @@ services:
                 # Agregar -bullseye o -buster para escoger una versión del OS específica.
                 # Usar las variantes -bullseye en equipos con arquitectura arm64/Apple Silicon
                 VARIANT: 20-bullseye
-                PNPM_VERSION: 8.10.0
+                PNPM_VERSION: 8.11.0
         volumes:
             # Redirecciona el socket del Docker local al contenedor
             - /var/run/docker.sock:/var/run/docker-host.sock
