@@ -1,9 +1,11 @@
 <script>
+    import '../../styles/app.css'
+
     let year = 2023;
     let now = new Date().getSeconds();
 </script>
 
-<div>
+<div class='vp'>
     <h1>Login</h1>
     <p>Welcome to Khatzoo!</p>
     <h2>Are you registered?</h2>
@@ -11,12 +13,8 @@
 </div>
 
 <style>
-    div{
-        background: #000;
-        color: #f0f;
-    }
-
-    h1 {
-        font-size: 1rem;
+    .vp {
+        border: 1px solid #000;
+        background: #ddd;
     }
 </style>
